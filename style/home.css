@@ -1,0 +1,12 @@
+#navbar {
+  height: 91px;
+  margin: none;
+  color: black;
+  display: flex;
+  background: linear-gradient(to bottom, yellow 0%, rgba(0,0,0,0) 100%);
+  font-family: ;
+}
+
+.navbar-item {
+  padding: 10px;
+}
