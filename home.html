@@ -4,14 +4,17 @@
   <link rel="stylesheet" href="style/home.css">
 <body>
   <div id="navbar">
-    <a href="#" data-toggle="dropdown">Discover<i class="icon-arrow"></i></a>
-    <ul class="dropdown-menu">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Mixes</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
+    <div id='dropdown' id='icecream-dropdown'>
+      <div class='dropdown-button'>Give me more.</div>
+        <span class='triangle'>&#9660;</span>
+          <ul class="dropdown-selection">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Mixes</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
     </div>
+  </div>
 
     <select id="navbarList" onchange="dropDown()">
 
@@ -22,6 +25,7 @@
   <h1>VAMP flexo</h1>
 
   <h2>Embrace your weird.</h2>
+  <script type="text/javascript" src="js/home.js"></script>
 
 </body>
 
