@@ -14,7 +14,7 @@
 // Way to maximise performance
 
 var activeDropdown = {};
-document.getElementById('icecream-dropdown').addEventListener('click',function(){
+document.getElementById('icecream-dropdown').addEventListener('mouseover',function(){
   for (var i = 0;i<this.children.length;i++){
     if (this.children[i].classList.contains('dropdown-selection')){
         // saving data to object, can recall easily
@@ -25,7 +25,43 @@ document.getElementById('icecream-dropdown').addEventListener('click',function()
   }
 });
 
+
+window.onmouseover = function(event){
+  if (!event.target.classList.contains('dropdown-button')){
+    activeDropdown.element.style.visibility = 'hidden';
+  }
+}
+
 ////// Image carousel
+
+// var slideIndex = 1;
+// showSlides(slideIndex);
+
+// // Next/previous controls
+// function plusSlides(n) {
+//   showSlides(slideIndex += n);
+// }
+
+// // Thumbnail image controls
+// function currentSlide(n) {
+//   showSlides(slideIndex = n);
+// }
+
+// function showSlides(n) {
+//   var i;
+//   var slides = document.getElementsByClassName("mySlides");
+//   var dots = document.getElementsByClassName("dot");
+//   if (n > slides.length) {slideIndex = 1}
+//   if (n < 1) {slideIndex = slides.length}
+//   for (i = 0; i < slides.length; i++) {
+//       slides[i].style.display = "none";
+//   }
+//   for (i = 0; i < dots.length; i++) {
+//       dots[i].className = dots[i].className.replace(" active", "");
+//   }
+//   slides[slideIndex-1].style.display = "block";
+//   dots[slideIndex-1].className += " active";
+// }
 
 var slideIndex = 0;
 showSlides();
@@ -39,5 +75,5 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 8000); // Change image every 2 seconds
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
