@@ -1,10 +1,14 @@
 #navbar {
   height: 91px;
-  margin: none;
   color: black;
-  display: flex;
   background: linear-gradient(to bottom, yellow 0%, rgba(0,0,0,0) 100%);
   font-family: ;
+  position: fixed; /* Set the navbar to fixed position */
+  width: 100%;
+  top: 0; /* Position the navbar at the top of the page */
+  left:0;
+  margin: 0px;
+  margin-bottom: 30px;
 }
 
 .navbar-item {
@@ -29,7 +33,7 @@
   transition: background .3s ease;
 }
 .dropdown-button:hover {
-  background: #2980b9;
+  background: #4a4747;
   transition: background .3s ease;
 }
 .triangle {
@@ -54,15 +58,27 @@
   margin-top: 2px;
   top: 100%;
   min-width: 90%;
+  color: white;
 }
 .dropdown li {
-  background: #fff;
+  background: #9383FF;
   padding: 8px 10px 8px 15px;
   box-sizing: border-box;
   cursor: pointer;
   transition: background .2s ease;
 }
+
+.dropdown li a {
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown a:hover {
+  color: black;
+}
+
 .dropdown li:hover {
-  background: #f6f6f6;
+  background: #858585;
+  color: black;
   transition: background .2s ease;
 }
