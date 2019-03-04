@@ -1,7 +1,13 @@
+  body {
+    padding-top: 70px;
+    margin:0;
+  }
+
 #navbar {
   height: 91px;
   color: black;
-  background: linear-gradient(to bottom, yellow 0%, rgba(0,0,0,0) 100%);
+  background: #454745;
+  /*linear-gradient(to bottom, dimgrey 0%, rgba(0,0,0,0) 100%);*/
   font-family: ;
   position: fixed; /* Set the navbar to fixed position */
   width: 100%;
@@ -16,7 +22,7 @@
 }
 
 .banner {
-  background-image: url("../images/VAMPSONICLOGO.png");
+  background-image: url("../images/VampFINALlogo.png");
   background-size: cover !important;
   display: block;
   max-width: 100%;
