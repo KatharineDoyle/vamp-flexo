@@ -7,7 +7,6 @@
   height: 91px;
   color: black;
   background: #454745;
-  /*linear-gradient(to bottom, dimgrey 0%, rgba(0,0,0,0) 100%);*/
   font-family: ;
   position: fixed; /* Set the navbar to fixed position */
   width: 100%;
@@ -15,6 +14,11 @@
   left:0;
   margin: 0px;
   margin-bottom: 30px;
+}
+
+#navbar.scrolled {
+  background: linear-gradient(to bottom, yellow 0%, rgba(0,0,0,0) 100%) !important;
+  transition: background-color 200ms linear;
 }
 
 .navbar-item {
@@ -105,6 +109,7 @@
   max-width: 1000px;
   position: relative;
   margin: auto;
+  margin-top: 50px;
 }
 
 /* Caption text */
