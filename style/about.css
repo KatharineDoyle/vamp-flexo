@@ -1,0 +1,19 @@
+h1 {
+  font-family: 'Pathway Gothic One', sans-serif;
+
+}
+
+.kath-image {
+  height: 200px;
+}
+
+#about-info {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-content {
+  padding: 20px;
+}
