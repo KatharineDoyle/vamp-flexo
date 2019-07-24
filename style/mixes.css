@@ -1,0 +1,9 @@
+#mixes-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.embedded-link {
+  margin: 30px;
+}
