@@ -6,9 +6,15 @@
 }
 
 .embedded-link {
-  margin: 30px;
+  margin: 50px;
 }
 
 .mix-title {
-  font-family:
+  font-family: Anton, sans-serif;
+  font-size: 50px;
+}
+
+.mix-description {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 170%;
 }
