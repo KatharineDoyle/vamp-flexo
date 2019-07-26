@@ -2,8 +2,13 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  margin: 30px;
 }
 
 .embedded-link {
   margin: 30px;
+}
+
+.mix-title {
+  font-family:
 }
