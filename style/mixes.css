@@ -1,8 +1,33 @@
+body {
+  margin: 0;
+}
+
 #mixes-container {
+  background-color: black;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: space-around;
-  margin: 30px;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+.mix {
+  font-family: Anton, sans-serif;
+  padding: 30px;
+  font-size: 15px;
+  border-color: black;
+  border-width: medium;
+  border-style: solid;
+  border-color: yellow;
+  margin: 15px;
+  color: yellow;
 }
 
 .embedded-link {
@@ -12,6 +37,7 @@
 .mix-title {
   font-family: Anton, sans-serif;
   font-size: 50px;
+  margin-bottom: 50px;
 }
 
 .mix-description {
