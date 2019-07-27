@@ -36,6 +36,11 @@ body {
   opacity: 1;
 }
 
+.mix.visible:hover {
+  border-right: none;
+  border-left: none;
+}
+
 .embedded-link {
   margin: 50px;
 }
