@@ -50,10 +50,6 @@ body {
   border-left: none;
 }
 
-.embedded-link {
-  padding: 30px;
-}
-
 .sow-link {
   text-decoration: none; color:#EEF50D;
 }
@@ -69,7 +65,60 @@ body {
   font-family: 'Montserrat', sans-serif;
   line-height: 170%;
   margin-left: 20px;
-  margin-right: 20px;
+  margin-right: 40px;
   margin-top: 30px;
   padding: 10px;
+  position: relative;
+  top: 350px;
+  left: 100px;
+  text-align: justify;
+  padding: 100px;
+  color: white;
+}
+
+#sow-banner {
+  background-image: url("../images/mixsowbackground.png");
+  background-size: cover !important;
+  display: block;
+  max-width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  margin: 0;
+}
+
+.image-mix {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: black;
+  justify-content: center;
+  margin-top: 30px;
+  color: white;
+  font-family: Anton, sans-serif;
+  font-size: 20px;
+}
+
+.discovery-column {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.discover-title {
+  text-decoration: underline;
+}
+
+.discover-links {
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+.embedded-link {
+  margin-top: 40px;
+  margin-left: 60px;
+  margin-right: 60px;
 }
