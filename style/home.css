@@ -4,7 +4,7 @@
   }
 
 #navbar {
-  height: 91px;
+/*  height: 91px;*/
   color: black;
   background: #454745;
   font-family: ;
@@ -155,7 +155,7 @@
   align-items: center;
 }
 .footer-links a {
-  color: black;
+  color: white;
   opacity: 0.15;
   text-decoration: none;
   font-size: 24px;
@@ -168,7 +168,7 @@
 .footer-contact {
   font-family: 'Pathway Gothic One', sans-serif;
   color: white;
-  background-color: #69E8DC;
+  background-color: #00FF6E;
   padding-left: 25px;
   padding-right: 25px;
   padding-top: 15px;
