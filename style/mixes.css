@@ -11,7 +11,7 @@ body {
 }
 
 #mixes-container {
-  background-color: #BBB6A1;
+  background-image: url("../images/pawel-czerwinski-kNx8H8ScHDk-unsplash.jpg");
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -110,7 +110,7 @@ body {
 }
 
 #pholl-throttle-banner {
-  background-image: url("../images/pholl-throttle-mix.png");
+  background-image: url("../images/pholl-throttle-background.png");
   background-size: cover !important;
   display: block;
   max-width: 100%;
@@ -140,6 +140,26 @@ body {
   margin-top: 30px;
   padding: 10px;
   text-align: justify;
+}
+
+.listen {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  margin-left: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-style: inset;
+  border-width: 1px;
+  color: red;
 }
 
 .image-mix {

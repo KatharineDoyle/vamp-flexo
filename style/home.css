@@ -142,11 +142,11 @@
   bottom: 0;
   left: 0;
   position: relative;
-  background: #F4F4F4;
+  background: black;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100px;
+  height: 200px;
   padding: 0px 50px;
   color: rgba(0,0,0,0.3);
 }
