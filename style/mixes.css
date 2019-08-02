@@ -96,6 +96,7 @@ body {
   background-repeat: no-repeat;
   background-position: center bottom;
   margin: 0;
+  margin-bottom: 30px;
 }
 
 #mala-herba-banner {
@@ -107,6 +108,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   margin: 0;
+  margin-bottom: 20px;
 }
 
 #pholl-throttle-banner {
@@ -142,8 +144,8 @@ body {
   text-align: justify;
 }
 
-.listen {
-  margin-top: 20px;
+a.listen {
+  margin-top: 50px;
   margin-bottom: 20px;
   text-align: left;
   margin-left: 50px;
