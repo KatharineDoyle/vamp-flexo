@@ -122,6 +122,17 @@ body {
   margin: 0;
 }
 
+#noma-t-banner {
+  background-image: url("../images/Noma-T Artist Banner.png");
+  background-size: cover !important;
+  display: block;
+  max-width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+}
+
 #mala-herba-mix-description {
   color: black;
   font-family: 'Montserrat', sans-serif;
